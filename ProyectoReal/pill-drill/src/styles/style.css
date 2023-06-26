@@ -1,0 +1,51 @@
+
+:root{
+    --violeta: #9370DB;
+    --celeste: #87CEFA;
+    --Azul:#4169E1;
+    --negro:#000000;
+    --blanco: #FFF;
+    --fuente-principal: 'Outfit', sans-serif;
+}
+[class = "contenedor"]{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+[class = "title"]{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: var(--primary);
+    margin: 2rem 0;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    color: var(--violeta);
+    align-items: center;
+  }
+
+
+
+  .form-control
+  {
+    color:#9370DB
+
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: var(--negro);
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
